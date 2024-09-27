@@ -1,3 +1,5 @@
+// encode each character of the input string to morse code
+
 #ifndef MORSE_H
 #define MORSE_H
 #include "Arduino.h"
