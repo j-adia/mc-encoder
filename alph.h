@@ -1,3 +1,5 @@
+// encode each letter as a sequence of "beeps"
+
 #ifndef ALPH_H
 #define ALPH_H
 #include "beeps.h"
