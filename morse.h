@@ -14,14 +14,15 @@ void parseMorseCode(char* string, int message_length){
     char letter = toupper(string[i]);
 
     if (letter == ' '){
-      delay(1000/speed);
+      delay(1000/speed); // just pause if the character is a space
       continue;
     }
 
     if (letter < 'A' || letter > 'Z') {
       continue; // Skip invalid characters
     }
-
+    
+    // play the corresponding "beep" for each letter (all functions defined in alph.h)
     switch(letter){
       case 'A':
         A();
