@@ -1,10 +1,12 @@
+// write to active buzzer to make morse code "beeps"
+
 #ifndef BEEPS_H
 #define BEEPS_H
 
 extern const int buzzer;
 extern const int speed;
 
-// pause between beeps
+// pause between beeps (/)
 void pause(){
   delay(270/speed);
 }
